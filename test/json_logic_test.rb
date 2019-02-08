@@ -5,7 +5,6 @@ require 'json'
 require 'open-uri'
 
 require 'json_logic'
-require 'byebug'
 
 class JSONLogicTest < Minitest::Test
   test_suite_url = 'http://jsonlogic.com/tests.json'
